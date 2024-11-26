@@ -1,0 +1,69 @@
+/* External CSS */
+
+/* body is a CSS Selector */
+/* {} idicates a CSS Declaration */
+body {
+  /* property:value; is a CSS Rule */
+  background-color: #fdfdfd;
+  color: #0d0d0d;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+}
+
+.headerLogo {
+  padding: 8px;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+ul {
+  display: flex;
+  justify-content: end;
+  gap: 15px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* MAIN */
+section {
+  height: 100vh;
+}
+
+.Grønnbox {
+  background-color: green;
+}
+.Rødbox {
+  background-color: red;
+}
+.Blåbox {
+  background-color: blue;
+}
+.Brunbox {
+  background-color: rgb(240, 121, 11);
+}
+
+.flexCol {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.inputSize {
+  max-width: 200px;
+}
+
+.buttonSize {
+  max-width: 120px;
+}
+/* FOOTER */
+footer {
+  display: flex;
+  justify-content: center;
+}
